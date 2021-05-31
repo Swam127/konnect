@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select</title>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<center>
+<div class="container">
+	<button id="logout" onclick="logout1();" class="glyphicon glyphicon-log-out btn btn-success" style="margin-right: 0px; margin-top: 0px;">Logout</button>
+    <br>
+        <h1 class="header" style="color: darkcyan; font-size: 40px;">
+            <sup>
+                <img src="Connecterzz.png" class="logo" style="height: 90px; width: 90px;">
+        </sup>	
+            <b style="color: darkblue; letter-spacing: 5px; font-size: 55px; font-family: Yeon Sung;">KONNECT</b>
+    </h1>
+		<h3 id="user_name1" style="color: darkcyan; font-family: Lucida Handwriting;"></h3>
+        </div>
+        <hr>
+            <label for="cars" style="color: darkblue; font-size: 20px;">Select a Country</label>
+<br><br>
+            <select name="Country">
+                <option value="zero"></option>
+              <option value="bharat">India</option>
+            </select>
+        <hr>
+        <label for="States/Provinces" style="color: darkblue; font-size: 20px;">Select a State/Province</label>
+        <br>
+        <select name="state">
+            <option value="blank"></option>
+            <option value="mh">Maharashtra</option>
+            <option value="tamil">Tamil Nadu</option>
+            <option value="odisha">Odisha</option>
+        </select>
+        <hr>
+        <label for="cities in india" style="color: darkblue; font-size: 20px;">Select a City</label>
+        <br>
+        <select name="city" id="cities">
+            <option value="null"></option>
+            <option value="mb">Mumbai</option>
+            <option value="pq">Pune</option>
+            <option value="np">Nagpur</option>
+            <option value="bb">Bhubaneshwar</option>
+            <option value="ct">Cuttack</option>
+            <option value="rk">Rourkela</option>
+            <option value="cn">Chennai</option>
+            <option value="cb">Coimbatore</option>
+            <option value="mr">Madurai</option>
+        </select> 
+        <hr>
+        <button class="btn btn-success" id="cont" onclick="changeScreen44();">Continue</button>
+    
+</center>
+</body>
+<script src="firm.js"></script>
+</html>

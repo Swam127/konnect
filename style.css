@@ -1,0 +1,143 @@
+.logo
+{
+	width: 80px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.logo
+{
+	width: 80px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+html, body
+{
+  height: 100%;
+  margin: 0;
+  font-family: 'Special Elite', cursive;
+}
+
+body
+{
+    background-color: lightskyblue;
+}
+
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);
+    float: none;border-radius: 15px;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+#Country
+{
+    width: 166px;
+    border-radius: 15px;
+    height: 50px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#province
+{
+    width: 166px;
+    border-radius: 15px;
+    height: 50px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+select
+{
+    width: 166px;
+    border-radius: 15px;
+    height: 50px;
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cont
+{
+    width: 20%;
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#goat
+{
+    width: 178px;
+    border-radius: 15px;
+    height: 50px;
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bangbang
+{
+    width: 220px;
+    border-radius: 15px;
+    height: 50px;
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#pro
+{
+    font-size: 20px;
+    color: darkblue;
+}
+
+#inputbox
+{
+    width: 16%;
+    border-radius: 15px;
+    height: 40px;
+}
+
+#pro1
+{
+    font-size: 20px;
+    color: darkblue;
+}
+
+#pro2
+{
+    font-size: 20px;
+    color: darkblue;
+}
+
+#submit
+{
+    width: 30%;
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+}
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport
+{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
